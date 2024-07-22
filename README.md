@@ -64,7 +64,7 @@ The project consists of two main files:
 Run the utility with the following command:
 
 ```bash
-python pcapmatcher.py <file_a> <file_b> [--min-match-length MIN_LENGTH] [--interval-numbers INTERVAL_NUMBERS]
+python3 pcapmatcher.py <file_a> <file_b> [--min-match-length MIN_LENGTH] [--interval-numbers INTERVAL_NUMBERS]
 ```
 
 <I>where</I>:
@@ -77,7 +77,7 @@ python pcapmatcher.py <file_a> <file_b> [--min-match-length MIN_LENGTH] [--inter
 #### Example:
 
 ```bash
-python pcapmatcher.py file1.pcap file2.pcap --min-match-length 4 --interval-numbers 1 2
+python3 pcapmatcher.py file1.pcap file2.pcap --min-match-length 4 --interval-numbers 1 2
 ```
 
 #### Example Output:
@@ -113,7 +113,7 @@ To ensure the functionality of pcapmatcher, you can run the tests using unittest
 1. Run the tests with the following command:
 
 ```bash
-python -m unittest tests.py
+python3 -m unittest tests.py
 ```
 <I>This command will discover and execute all tests defined in the tests.py file.</I>
 
